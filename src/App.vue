@@ -6,7 +6,8 @@
     <router-link to="/html">HtmlBinding</router-link> |
     <router-link to="/Input">Input</router-link> |
     <router-link to="/select">select</router-link> |
-    <router-link to="/attribute">attribute</router-link>
+    <router-link to="/attribute">attribute</router-link> |
+    <router-link to="/list">list</router-link>
   </nav>
   <router-view/>
 </template>
