@@ -2,7 +2,9 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> | 
-    <router-link to="/data">Data</router-link>
+    <router-link to="/data">Data</router-link> |
+    <router-link to="/html">HtmlBinding</router-link> |
+    <router-link to="/Input">Input</router-link>
   </nav>
   <router-view/>
 </template>
