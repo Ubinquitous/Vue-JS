@@ -38,6 +38,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/attribute',
     name: 'attribute',
     component: () => import(/* webpackChunkName: "dataBinding", webpackPrefetch:true */'../views/DataBindingAttributeView.vue'),
+  },
+  {
+    path: '/list',
+    name: 'list',
+    component: () => import(/* webpackChunkName: "dataBinding", webpackPrefetch:true */'../views/DataBindingListView.vue'),
   }
 ]
 
