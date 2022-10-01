@@ -28,6 +28,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/input',
     name: 'input',
     component: () => import(/* webpackChunkName: "dataBinding", webpackPrefetch:true */'../views/DataBindingInputView.vue'),
+  },
+  {
+    path: '/select',
+    name: 'select',
+    component: () => import(/* webpackChunkName: "dataBinding", webpackPrefetch:true */'../views/DataBindingSelectView.vue'),
+  },
+  {
+    path: '/attribute',
+    name: 'attribute',
+    component: () => import(/* webpackChunkName: "dataBinding", webpackPrefetch:true */'../views/DataBindingAttributeView.vue'),
   }
 ]
 
